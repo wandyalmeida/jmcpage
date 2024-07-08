@@ -1,3 +1,7 @@
+body {
+	/* background-color: beige; */
+	font-family: Tahoma;
+}
 .bd-header {
     text-decoration: none;
     background-color: rgba(54, 93, 149, 1) !important;
@@ -501,6 +505,9 @@ p.text{
 
 
   @media (max-width: 1325px) {
+    .sigimg {
+		display: none;
+	}
     .about{
         position: relative;
         display: inline-flex;
